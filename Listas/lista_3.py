@@ -4,8 +4,8 @@
 # Spoiler: Frodo, Sam, Merry, Pippin, Gandalf, Aragorn, Legolas, Gimli, Boromir
 
 sociedade = []
-for i in range(0,9):
-   nome = input("Digite o nome ")
-   sociedade.append(nome)
+for membro in range(9):
+   membro = input("Digite o nome: ")
+   sociedade.append(membro)
 print(sociedade)
-    
+     
